@@ -3,7 +3,7 @@
 ***DISCLAIMER:*** This project is still in the works, so it's not available.
 
 ---
-A 2D indie engine made with C++ and GLFW
+A 2D game indie engine made with C++ and GLFW
 
 ## Dependencies
 - [GLFW](https://www.glfw.org/)

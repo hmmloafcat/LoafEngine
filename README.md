@@ -5,6 +5,9 @@
 ---
 A 2D indie game engine made with C++ and GLFW
 
+## Programs needed
+- [VS Code](https://code.visualstudio.com) (or any IDE you prefer)
+
 ## Dependencies
 - [GLFW](https://www.glfw.org/)
     - The engine uses GLFW for window management and input handling.

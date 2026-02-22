@@ -31,24 +31,29 @@ A: Yes, it will be open source! Open source = cool.
 ## API docs
 
 It uses a custom programming language, called LoafLanguage. It's a simple programming language similar to Python, but for the engine. It has a simple syntax and it's easy to learn.
+It uses indentation for functions/loops, similar to Python.
 
 Example code:
 ```loaf
-// Display shapes
-
-// square
-square = object.New(shape="square", id=1, posX="center", posY="center", size=80, color="purple")
-
-// circle
-circle = object.New(shape="circle", id=2, posX=100, posY=50, size=60, color="red")
-
-// triangle
-triangle = object.New(shape="triangle", id=3, posX=-150, posY=-100, size=100, color="green")
-
-square.display()
-circle.display()
-triangle.display()
+func main()
+    // Display shapes
+    
+    // square
+    square = object.New(shape="square", id=1, posX="center", posY="center", size=80, color="purple")
+    
+    // circle
+    circle = object.New(shape="circle", id=2, posX=100, posY=50, size=60, color="red")
+    
+    // triangle
+    triangle = object.New(shape="triangle", id=3, posX=-150, posY=-100, size=100, color="green")
+    
+    square.display()
+    circle.display()
+    triangle.display()
 ```
 
 ## License
-This project is licensed under the MIT License.
+This project is licensed under the MIT License. Check [LICENSE](LICENSE) for more info.
+
+## Inspirations
+The custom programming language is inspired by [Python](https://python.org), a interpited programming language.

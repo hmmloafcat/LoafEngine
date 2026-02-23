@@ -5,12 +5,14 @@
 ---
 A 2D indie game engine made with C++ and GLFW
 
+This software is owned and maintained by a single person, so the updates may take a while
+
 ## Programs needed
-- [VS Code](https://code.visualstudio.com) (or any IDE you prefer)
+- Any IDE
 
 ## Dependencies
 - [GLFW](https://www.glfw.org/)
-    - The engine uses GLFW for window management and input handling.
+    - The engine uses GLFW for window management and input handling. Also graphics *(i forgor)*
 - [g++](https://gcc.gnu.org/)
     - The engine is written in C++ and compiled with g++.
 

@@ -64,4 +64,10 @@ The custom programming language is inspired by [Python](https://python.org), a i
 
 ## Random Stuff
 ###### This section is satire for people who love jokes
-<img width="616" height="579" alt="image" src="https://github.com/user-attachments/assets/916e8aae-b32c-43dd-9094-421422657aa5" />
+
+Hover over any image to show it's description
+
+<img title="finally fucking works" alt="loaf sending a screenshot of fake code and the engine somehow works" width="616" height="579" alt="image" src="https://github.com/user-attachments/assets/916e8aae-b32c-43dd-9094-421422657aa5" />
+
+<img title="i hate my life" width="509" height="627" alt="image" src="https://github.com/user-attachments/assets/614c088a-4f32-47d5-9076-4921f2330fc3" />
+

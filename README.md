@@ -63,5 +63,5 @@ This project is licensed under the MIT License. Check [LICENSE](LICENSE) for mor
 The custom programming language is inspired by [Python](https://python.org), a interpited programming language.
 
 ## Random Stuff
-<h1>This section is satire for people who love jokes</h1>
+###### This section is satire for people who love jokes
 <img width="616" height="579" alt="image" src="https://github.com/user-attachments/assets/916e8aae-b32c-43dd-9094-421422657aa5" />

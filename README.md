@@ -67,7 +67,15 @@ The custom programming language is inspired by [Python](https://python.org), a i
 
 Hover over any image to show it's description
 
+---
+
 <img title="finally fucking works" alt="loaf sending a screenshot of fake code and the engine somehow works" width="616" height="579" alt="image" src="https://github.com/user-attachments/assets/916e8aae-b32c-43dd-9094-421422657aa5" />
 
-<img title="i hate my life" width="509" height="627" alt="image" src="https://github.com/user-attachments/assets/614c088a-4f32-47d5-9076-4921f2330fc3" />
+---
+
+<img title="errors of doom" alt="too much errors" width="856" height="690" alt="Screenshot 2026-02-24 172840" src="https://github.com/user-attachments/assets/b2a2467e-17db-447c-92b5-57fbaf416f09" />
+
+---
+
+<img title="i hate my life" alt="too much files..." width="509" height="627" alt="image" src="https://github.com/user-attachments/assets/614c088a-4f32-47d5-9076-4921f2330fc3" />
 

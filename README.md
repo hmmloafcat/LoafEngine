@@ -15,6 +15,8 @@ This software is owned and maintained by a single person, so the updates may tak
     - The engine uses GLFW for window management and input handling. Also graphics *(i forgor)*
 - [g++](https://gcc.gnu.org/)
     - The engine is written in C++ and compiled with g++.
+- [GLAD](https://glad.dav1d.de/)
+    - idk what dis does but i'm sure it's useful. it helps the engine
 
 ## Q&A
 
@@ -59,3 +61,6 @@ This project is licensed under the MIT License. Check [LICENSE](LICENSE) for mor
 
 ## Inspirations
 The custom programming language is inspired by [Python](https://python.org), a interpited programming language.
+
+## Random Stuff
+<img width="616" height="579" alt="image" src="https://github.com/user-attachments/assets/916e8aae-b32c-43dd-9094-421422657aa5" />

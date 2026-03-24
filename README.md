@@ -1,6 +1,6 @@
 # LoafEngine
 
-# SUPER DISCLAMER!!!! THE WHOLE ENGINE WILL BE REWRITTEN AND THIS VERSION WILL BE CANCELED. Thank you for reading. :)
+# SUPER DISCLAMER!!!! THE WHOLE ENGINE WILL BE REWRITTEN AND THIS VERSION WILL BE CANCELED. Thank you for reading. ☺
 
 ---
 A 2D indie game engine made with C++ and GLFW

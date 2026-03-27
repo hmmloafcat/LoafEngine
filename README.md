@@ -1,81 +1,35 @@
 # LoafEngine
 
-# SUPER DISCLAMER!!!! THE WHOLE ENGINE WILL BE REWRITTEN AND THIS VERSION WILL BE CANCELLED. Thank you for reading. ☺
+### This program is not released yet. Pls wait
 
 ---
-A 2D indie game engine made with C++ and GLFW
 
-This software is owned and maintained by a single person, so the updates may take a while
+A game engine made in C++ and graphics w/ GLFW.
 
-## Programs needed
-- Any IDE
+## The C++ API
 
-## Dependencies
-- [GLFW](https://www.glfw.org/)
-    - The engine uses GLFW for window management and input handling. Also graphics *(i forgor)*
-- [g++](https://gcc.gnu.org/)
-    - The engine is written in C++ and compiled with g++.
-- [GLAD](https://glad.dav1d.de/)
-    - idk what dis does but i'm sure it's useful. it helps the engine
+The API for the game engine has been switched to C++.
 
-## Q&A
+```cpp
+#include "loafEngine.h"
 
-**Q: Is this engine free to use?**
+int main() {
+    // Initalize
+    LoafEngine engine;
+    engine.window.title("Hello World!");
 
-A: Absolutely! Free = cool.
+    // Text
+    engine.drawText("Hello, World!", 100.0f, 100.0f, 1.0f, Color(1, 1, 1, 1));
 
-**Q: Is this still in development?**
+    // Loop
+    while (!engine.shouldClose()) {
+        engine.update();
+        
+        engine.render(); 
+        
+        engine.display();
+    }
 
-A: Yes, it's still in development. The engine is not yet available, but it will be soon.
-
-**Q: Will this engine be open source?**
-
-A: Yes, it will be open source! Open source = cool.
-
-## API docs
-
-It uses a custom programming language, called LoafLanguage. It's a simple programming language similar to Python, but for the engine. It has a simple syntax and it's easy to learn.
-It uses indentation for functions/loops, similar to Python.
-
-Example code:
-```loaf
-func main()
-    // Display shapes
-    
-    // square
-    square = object.New(shape="square", id=1, posX="center", posY="center", size=80, color="purple")
-    
-    // circle
-    circle = object.New(shape="circle", id=2, posX=100, posY=50, size=60, color="red")
-    
-    // triangle
-    triangle = object.New(shape="triangle", id=3, posX=-150, posY=-100, size=100, color="green")
-    
-    square.display()
-    circle.display()
-    triangle.display()
+    return 0;
+}
 ```
-
-## License
-This project is licensed under the MIT License. Check [LICENSE](LICENSE) for more info.
-
-## Inspirations
-The custom programming language is inspired by [Python](https://python.org), a interpited programming language.
-
-## Random Stuff
-###### This section is satire for people who love jokes
-
-Hover over any image to show it's description
-
----
-
-<img title="finally fucking works" alt="loaf sending a screenshot of fake code and the engine somehow works" width="616" height="579" alt="image" src="https://github.com/user-attachments/assets/916e8aae-b32c-43dd-9094-421422657aa5" />
-
----
-
-<img title="errors of doom" alt="too much errors" width="856" height="690" alt="Screenshot 2026-02-24 172840" src="https://github.com/user-attachments/assets/b2a2467e-17db-447c-92b5-57fbaf416f09" />
-
----
-
-<img title="i hate my life" alt="too much files..." width="509" height="627" alt="image" src="https://github.com/user-attachments/assets/614c088a-4f32-47d5-9076-4921f2330fc3" />
-

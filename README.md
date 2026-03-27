@@ -18,15 +18,33 @@ int main() {
     LoafEngine engine;
     engine.window.title("Hello World!");
 
-    // Text
-    engine.drawText("Hello, World!", 100.0f, 100.0f, 1.0f, Color(1, 1, 1, 1));
+    // Languages
+    std::vector<std::string> greetings = {
+        "Hello World",       // English
+        "Hola Mundo",        // Spanish
+        "Bonjour le Monde",  // French
+        "Kamusta Mundo"      // Filipino
+    };
+
+    size_t textID = engine.drawText(greetings[currentIndex], 100.0f, 100.0f, 1.0f, Color(1, 1, 1, 1));
 
     // Loop
     while (!engine.shouldClose()) {
+        float currentTime = (float)glfwGetTime();
+
+        // Checking
+        if (currentTime - lastSwitchTime >= 10.0f) {
+            // Cycle the index
+            currentIndex = (currentIndex + 1) % greetings.size();
+            
+            // Update the text
+            engine.updateText(textID, greetings[currentIndex]);
+            
+            lastSwitchTime = currentTime;
+        }
+
         engine.update();
-        
-        engine.render(); 
-        
+        engine.render();
         engine.display();
     }
 

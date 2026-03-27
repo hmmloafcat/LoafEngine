@@ -32,6 +32,8 @@ int main() {
     while (!engine.shouldClose()) {
         float currentTime = (float)glfwGetTime();
 
+        engine.update();
+
         // Checking
         if (currentTime - lastSwitchTime >= 10.0f) {
             // Cycle the index
@@ -43,7 +45,6 @@ int main() {
             lastSwitchTime = currentTime;
         }
 
-        engine.update();
         engine.render();
         engine.display();
     }

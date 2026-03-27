@@ -41,7 +41,10 @@ int main() {
         "Kamusta Mundo"      // Filipino
     };
 
-    size_t textID = engine.drawText(greetings[currentIndex], 100.0f, 100.0f, 1.0f, Color(1, 1, 1, 1));
+    size_t currentIndex = 0;
+    float lastSwitchTime = 0.0f;
+
+    size_t textID = engine.drawText(greetings[currentIndex], 30.0f, 30.0f, 1.0f, Color(1, 1, 1, 1));
 
     // Loop
     while (!engine.shouldClose()) {

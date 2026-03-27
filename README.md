@@ -1,6 +1,21 @@
 # LoafEngine
 
-### This program is not released yet. Pls wait
+### This program is not released yet. Please wait
+
+---
+
+## Credits and Dependencies
+
+- [GLFW](https://glfw.org)
+  - The main graphics API. Can handle input, graphics (obviously), displaying, etc.
+- [stb](https://github.com/nothings/stb)
+  - Single-header libraries like `stb_image.h` and `stb_vorbis.c`. Made by Sean Barrett. (https://nothings.org)
+- [OpenAL](https://openal.org)
+  - OpenAL for audio playing.
+- [xiph foundation](https://xiph.org)
+  - The people who made the OGG audio format. Compressed, but good sound.
+ 
+### All these are free and open-source, no payment needed! Also, thank you contributors/distributors.
 
 ---
 
